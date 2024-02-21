@@ -10,7 +10,7 @@ export default function AboutFunction() {
     return (
         <>
             <div className={styles.content}>
-            <h2 className="text-7xl animate__animated animate__backInDown">About me</h2>
+            <h2 className="text-7xl text-center animate__animated animate__backInDown">About me</h2>
                 <p className="mt-4 text-lg animate__animated animate__bounceInRight">
                     Im a frontend developer who recently graduated from the University of Colima with a degree in Internet Technologies. I have a passion for building user-friendly and visually appealing web applications using modern technologies like HTML, CSS, and JavaScript.
                 </p>

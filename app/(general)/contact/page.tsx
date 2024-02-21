@@ -33,7 +33,6 @@ export default function ContactFunction() {
     return (
         <>
             <h2 className="text-7xl py-4 text-white animate__animated animate__backInDown">Contact</h2>
-            <div className='flex'>
                 <div className={`${styles.square} ${styles.linkedin}`}>
                     <span></span>
                     <span></span>
@@ -51,11 +50,9 @@ export default function ContactFunction() {
                     <div className={styles.content}>
                         <h2>Gmail</h2>
                         <p>Send me an email</p>
-                        {/* Agregamos el evento onClick para llamar a la función copiarTexto */}
                         <a href="#" onClick={copiarTexto}>Copy to clipboard</a>
                     </div>
                 </div>
-            </div>
         </>
     )
 }
